@@ -1,0 +1,77 @@
+@import url('http://fonts.googleapis.com/css2?family=Bebas+Nueu&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+}
+
+input {
+    color: white;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Bebas Nueu', cursive;
+    border-radius: 25%;
+}
+
+.num {
+    width: 64px;
+    height: 67px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    margin-bottom: 2%;
+}
+
+.num0 {
+    width: 130px;
+    height: 67px;
+    text-align: left;
+    border-radius: 50%;
+    border: none;
+}
+
+.text {
+    width: 220px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: end;
+    margin-bottom: 12px;
+    background-color: black;
+}
+
+.text1 {
+    width: 24px;
+    height: 28px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(121, 121, 121);
+    border: none;
+}
+
+.main {
+    display: inline-block;
+}
+
+.maincolor {
+    background-color: rgb(15, 15, 15);
+}
+
+.maincor {
+    background-color: rgb(121, 121, 121);
+    color: black;
+}
+
+.ora {
+    background-color: orange;
+}
